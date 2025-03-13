@@ -22,7 +22,7 @@ header {
         }
     }
 }
-adress {
+address {
     justify-self: end;
     line-height: 24.3px;
     max-width: 240px;
@@ -61,9 +61,6 @@ h1 {
         display: block;
         margin-bottom: 20px;
         
-
-    }
-    .first_word {
 
     }
     .second_word {
@@ -119,10 +116,6 @@ h1 {
 .cover_wraper {
     position: relative;
   
-}
-
-.description {
-
 }
 
 .lots {
@@ -204,8 +197,8 @@ h1 {
     display: grid;
     padding: 6px 24px 180px 24px; 
     grid-template-columns: 334px 1fr;
-
-    .round {
+    gap: 25px;
+    div.round {
         background-color: black;
         margin-top: 35px;
         display: flex;
@@ -213,20 +206,16 @@ h1 {
         width: 240px;
         border-radius: 50%;
         justify-self: center;
-        
-        
-        
     }
+
     .about_logo {
         height: 114px;
         align-self: center;
-        /* justify-self: center; */
-        /* padding: 64px 45.52px 62px 46.48px; */
     }
     h2 {
         padding-bottom: 100px;
         padding-top: 133px;
-        padding-left: 25px;
+        /* padding-left: 25px; */
         font-size: 40px;
         font-weight: 700;
         text-transform: uppercase;
@@ -237,12 +226,15 @@ h1 {
         font-size: 20px;
         font-weight: 400;
         line-height: 120%;
-        padding-left: 25px;
+        max-width: 688px;
+        /* padding-left: 25px; */
 
     }
     p.first_paragraph {
         padding-bottom: 24px;
+    
     }
+
 }
 
 footer {
@@ -259,7 +251,7 @@ footer {
             text-align: center;
         }
     }
-    adress {
+    address {
         justify-self: start;
         padding-right: 0px;
     }
